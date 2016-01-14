@@ -3,7 +3,7 @@ The goal of this project is to provide a PHP script that can analyze pcap (packe
 Currently supports HTTP GET, POST, and response parsing. JPEG and GIF HTTP responses are displayed inline. POST data is separated into one key=value pair per line. POST data is shown in red, GET data in green, and HTTP response data in blue.
 
 Web Use:
- * Copy index.php and the test_data folder (found in Source->Browse->/svn/trunk) to a folder (like /pcapa) in your web server's path.
+ * Copy index.php and the test_data folder to a folder (like /pcapa) in your web server's path.
  * Change $pcapdir in index.php to your .pcap file folder. Optionally skip this step to use test data.
  * The script will create output folders and files in the directory it resides. !Important: Make sure it has write permissions in that folder.
  * Goto (Example) yourserver/pcapa/index.php and select a pcap file from the list. 
